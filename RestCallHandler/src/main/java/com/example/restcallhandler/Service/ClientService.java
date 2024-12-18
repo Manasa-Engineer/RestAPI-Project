@@ -13,6 +13,7 @@ public class ClientService {
     ClientRepo clientRepo;
 
 
+
     public String SaveNewSubscriberAccount(Subscriber subscriber) {
 
            String activationcode = generateActivationcode(subscriber.getName());
